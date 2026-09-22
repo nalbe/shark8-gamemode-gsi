@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- test whitelist: exercises gamemode.sh end to end with packages that are
+     actually installed on this device (none of the 40 stock entries are) -->
+<PowerAppConfig>
+<Package name="com.teslacoilsw.launcher">
+<Activity name="Common"/>
+</Package>
+<Package name="com.android.settings">
+<Activity name="Common"/>
+</Package>
+</PowerAppConfig>

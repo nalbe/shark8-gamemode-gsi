@@ -1,0 +1,6 @@
+id=shark8_gamemode
+name=Shark8 MTK game mode trigger (GSI)
+version=v0.1
+versionCode=1
+author=Jan
+description=Feeds the stock MTK power HAL (HIDL IMtkPower::notifyAppState) with the foreground app/activity that the GSI framework no longer reports, so the vendor game profiles in /vendor/etc/power_app_cfg.xml apply again. Pure trigger, no binary patches, no policy.
