@@ -1,0 +1,9 @@
+# Release artifacts
+*.zip
+
+# Probe / diagnostic dumps
+*.log
+tools/probe_*.txt
+
+# Local scratch
+scratch/
